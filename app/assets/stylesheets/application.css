@@ -31,8 +31,6 @@ body {
   margin: 0 auto;
 }
 
-
-
 .book_table th:first-child, .book_table th:last-child {
   width: 300px;
 }
@@ -41,6 +39,57 @@ body {
 .book_table td {
   word-wrap: break-word;
 }
+
 h2 {
   margin: 10px 0;
+}
+
+.error_box {
+  border: solid 1px;
+  border-color: red;
+}
+
+.error_title {
+  padding: 5px 0 5px 10px;
+  color: #ffffcc;
+  background-color: red;
+}
+
+.error_body {
+  padding: 10px 0 10px 50px;
+  background-color: #cccccc;
+}
+
+.flash {
+  color: green; 
+}
+
+.title_item {
+  font-size: 19px;
+  display: flex;
+  justify-content: left;
+}
+
+.title_item p {
+  margin: 17px 5px;
+}
+
+.body_item {
+  font-size: 19px;
+  display: flex;
+  justify-content: left;
+  margin-bottom: 20px;
+}
+
+.body_item p {
+  margin: 17px 5px;
+}
+
+.link_text {
+  padding-left: 5px;
+  border-right: solid 1px;
+}
+
+.link_text:last-child {
+  border: none;
 }
